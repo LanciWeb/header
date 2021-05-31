@@ -9,6 +9,50 @@
   margin: 0 auto;
 }
 
+img {
+  height: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 body {
   font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+  text-align: center;
+  background-color: #dedede;
+}
+
+main {
+  height: 100vh;
+  background-color: #000;
+}
+
+.main-menu,
+.main-menu ul,
+.main-menu li {
+  height: 100%;
+  display: inline-block;
+}
+
+.main-menu li {
+  list-style-type: none;
+  border: 2px solid transparent;
+}
+
+.main-menu li:hover {
+  border-bottom: 2px solid green;
+}
+
+.main-menu li a {
+  height: 100%;
+  padding: 0 10px;
+  display: inline-block;
+  line-height: 70px;
+  text-decoration: none;
 }
